@@ -1,0 +1,16 @@
+ul{padding:0;  margin:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+img{vertical-align:top;}
+
+#wrap{width:590px; height:220px; padding:14px; background:#999; margin:22px auto; position:relative;}
+#picList{width:590px; height:220px; position:relative;}
+#picList li{width:590px; height:220px; position:absolute; left:0; top:0; opacity:0;}
+#picList img{width:590px; height:220px; }
+#picList .show{opacity: 1;}
+
+#btn{width:120px; height:14px; position:absolute; left:254px; bottom:24px;}
+#btn li{float:left; width:10px; height:10px; border:1px solid white; border-radius:6px; background:white; margin-right:8px;}
+#btn .active{background:#ffa500; border:1px solid #ffa500 ;}
+
+
